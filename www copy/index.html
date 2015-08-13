@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <form class="main-form">
+      <a href="" class="chose-city"></a>
+      <a href="" class="reload"></a>
+      <div class="frame v-center frame-1" id="city-chose">
+        <div class="holder">
+          <h1>Выбери город</h1>
+          <center>
+            <div class="select-wrapper">
+              <select name="city-chose" id="city-chose-selector">
+                <option value="Ростов-на-Дону">Ростов-на-Дону</option>
+                <option value="Сочи">Сочи</option>
+                <option value="Волгоград">Волгоград</option>
+                <option value="Москва">Москва</option>
+                <option value="Уренгой">Уренгой</option>
+              </select>
+            </div>
+            <br>
+            <button data-href="id-competitor">Далее</button>
+          </center>
+        </div>
+      </div>
+      <div class="frame v-center frame-2" id="id-competitor">
+        <div class="holder">
+          <h1>Зарегистрируйся</h1>
+          <center>
+            <div class="select-wrapper no-after">
+              <input type="text" name="lastname" placeholder="Фамилия">
+            </div>
+            <br>
+            <div class="select-wrapper no-after">
+              <input type="text" name="firstname" placeholder="Имя">
+            </div>
+            <br>
+            <div class="select-wrapper no-after">
+              <input type="text" type="tel" pattern="(\+?\d[- .]*){7,13}" name="patronymic" placeholder="Телефон">
+            </div>
+            <br>
+            <button disabled data-href="note">Далее</button>
+          </center>
+        </div>
+      </div>
+      <div class="frame v-center center frame-3" id="note">
+        <div class="holder">
+          <h1>Запиши видео<br> и попади на Formula 1™</h1>
+          <p>Ответь на вопрос:<br> Почему именно ты
+          должен поехать в Сочи<br> на гонки Formula 1™?</p>
+        </div>
+      </div>
+      <div class="frame frame-4" id="video-sample">
+        <video>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="screen-red v-center center">
+          <div class="holder">
+            <h1>Смотри пример<br> видео</h1>
+          </div>
+        </div>
+      </div>
+      <div class="frame v-center center frame-5" id="are-you-ready">
+        <div class="holder">
+          <h1>Ты готов?<br> у тебя есть 20 сек.</h1>
+          <a href="" class="start-rec" style="text-decoration:none;">
+            <!--<img src="img/btn.png">-->
+            <button>Старт</button>
+          </a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!--<a href="" class="btn" data-href="advices">Узнай как снять лучшее видео</a>-->
+        </div>
+      </div>
+      <div class="frame v-center center" id="advices">
+        <div class="holder">
+          <div style="text-align:left; padding-left: 50px;">
+            <a href="" class="btn" data-href="are-you-ready">Назад</a>
+          </div>
+          <p>Когда снимаешь видео, лучше не закрывать глаза!</p>
+        </div>
+      </div>
+      <div class="frame v-center center" id="end">
+        <div class="holder" style="margin-top: -200px;">
+          <img src="img/hourglass.svg" style="width:100px;" class="preloader">
+          <div class="load">
+            <h1>Видео отправлено на конкурс.<br> Ты в игре!</h1>
+          </div>
+        </div>
+      </div>
+      <div class="frame v-center center" id="real-end">
+        <div class="holder">
+            <h1>Видео отправлено<br> на конкурс.<br> Ты в игре!</h1>
+        </div>
+      </div>
+    </form>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

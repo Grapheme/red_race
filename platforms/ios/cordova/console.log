@@ -1,0 +1,15 @@
+2015-06-16 13:49:27.693 Red Race[1288:46729] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/morad/Library/Developer/CoreSimulator/Devices/69AF1EF7-0913-4812-98B4-9D1D3BE082ED/data/Containers/Data/Application/F338E564-0DF5-4116-AA82-373AD688AF4D/Library/Cookies/Cookies.binarycookies
+2015-06-16 13:49:28.277 Red Race[1288:46729] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-16 13:49:28.277 Red Race[1288:46729] Multi-tasking -> Device: YES, App: YES
+2015-06-16 13:49:28.300 Red Race[1288:46729] Unlimited access to network resources
+2015-06-16 13:49:28.313 Red Race[1288:46729] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-16 13:49:29.458 Red Race[1288:46729] Resetting plugins due to page load.
+2015-06-16 13:49:29.715 Red Race[1288:46729] Finished load of: file:///Users/morad/Library/Developer/CoreSimulator/Devices/69AF1EF7-0913-4812-98B4-9D1D3BE082ED/data/Containers/Bundle/Application/7A0AFDCE-FF03-45F3-B0F6-6C0AA6664FB4/Red%20Race.app/www/index.html
+2015-06-16 13:49:41.017 Red Race[1288:47426] Terminating since there is no system app.

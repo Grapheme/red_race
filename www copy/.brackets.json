@@ -1,0 +1,14 @@
+{
+    "sass.enabled": false,
+    "sass.compiler": "libsass",
+    "path": {
+        "css/main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "imagePath": null,
+                "sourceComments": true,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false
+        }
+    }
